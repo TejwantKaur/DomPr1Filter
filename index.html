@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Item Lister</title>
+ </head>
+
+<body>
+   <header>
+        <div class="main-head">
+            <h2>Item Lister</h2>
+            <div class="in-main">
+                <input type="text" class="form-control" id="filter"
+                placeholder="Search items...">
+            </div>
+        </div>
+    </header>
+
+        <div class="container">
+            <h3 class="in-head">Add Items</h3>
+
+            <form id="addForm">
+                <input type="text" class="inp" id="in-id" placeholder="Add items">
+                <select class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <input type="submit" class="btn" value="Submit">
+            </form>
+            
+            <div>
+                <h3 class="in-head">Items</h3>
+            </div>
+            
+            <ul id="ul-id">
+                <li class="item" id="item-1"> Item 1<button class="btnr">x</button></li>
+                <li class="item" id="item-2"> Item 2 <button class="btnr">x</button></li>
+                <li class="item" id="item-3"> Item 3 <button class="btnr">x</button></li>
+                <li class="item" id="item-4"> Item 4 <button class="btnr">x</button></li>
+                <li class="item" id="last-item"> Item 5 <button class="btnr">x</button></li>
+            </ul>
+            
+            <div id="output"></div>
+
+            <button class="btn btn2">click now</button>
+
+            </div>
+
+        </div>
+        
+
+    <!-- </div> -->
+    
+    
+
+
+    <!-- <script src="itemLi.js"></script> -->
+    <script src="itemLi2.js"></script>
+    
+  </body>
+
+</html>

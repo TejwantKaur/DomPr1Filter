@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+*{
+    font-family: Roboto;
+    box-sizing:border-box; 
+    margin: 0px; padding: 0px;
+}
+.main-head{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+    background-color: rgb(29, 136, 101);
+}
+.in-main{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:50px;
+}
+.main-head>h2{
+    color: aliceblue;
+    font-family:Amatic SC;
+    padding: 15px;
+    font-size: 50px;
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+.inp{
+    margin: 3px; margin-left: 0px;
+    width: 50%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.472);
+}
+.btn{
+    padding: 4px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 1px;
+    border-radius: 5px;
+}
+.btn2{
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 10px;
+}
+.btnr{
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(229, 62, 62);
+    width: 35px;
+    float: right;
+    box-shadow: 1px 1px 2px;
+}
+.btnr:hover{
+    font-weight: bold;
+    color: aliceblue;
+}
+.in-head{
+    color: rgb(82, 82, 205);
+    margin-bottom: 5px;
+}
+.container{
+    display: inline-block;
+    width: 70%;
+    margin: 50px;
+    margin-left: 15%; margin-right: 15%;
+    padding: 10px;
+    border: 1px solid rgb(159, 156, 156);
+    border-radius: 10px;
+    padding-top: 10px;    
+    /* background-color: blue; */
+}
+ul{
+    list-style-type: none;
+}
+ul > li {
+    padding: 6px;
+    padding-left: 5px;
+    border-left: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+ul> #item-1{
+    border-top: 1px solid #bbb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ul> #last-item{
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px;
+}
+ul > #one-item{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+.form-control{
+    padding: 3px;
+}
+
+/* @media only screen and(max-width: ) */
+        
